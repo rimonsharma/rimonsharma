@@ -3,30 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Professional Portfolio</title>
+    <title>Rimon Sharma | Senior IT & EUC Support Specialist</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
-        h1 { color: #0066cc; }
-        .section { margin-bottom: 30px; }
+        :root {
+            --primary: #0f2b46;
+            --secondary: #1d4ed8;
+            --text: #334155;
+            --light: #f8fafc;
+            --border: #e2e8f0;
+        }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 40px 20px; 
+            color: var(--text);
+            background-color: #ffffff;
+        }
+        header {
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 { color: var(--primary); margin: 0 0 10px 0; font-size: 2.5rem; }
+        h2 { color: var(--primary); border-bottom: 1px solid var(--border); padding-bottom: 5px; margin-top: 35px; font-size: 1.5rem; }
+        h3 { color: var(--secondary); margin: 20px 0 5px 0; font-size: 1.15rem; }
+        .subtitle { font-size: 1.2rem; color: var(--secondary); font-weight: 600; margin-bottom: 15px; }
+        .contact-info { display: flex; flex-wrap: wrap; gap: 15px; font-size: 0.95rem; color: #64748b; margin-bottom: 15px; }
+        .contact-info span { display: inline-flex; align-items: center; }
+        .badge-container { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+        .badge { background: var(--light); border: 1px solid var(--border); padding: 4px 12px; border-radius: 4px; font-size: 0.85rem; font-weight: 500; color: var(--primary); }
+        .cert-badge { background: var(--primary); color: white; border: none; }
+        .achievement-card { background: var(--light); border-left: 4px solid var(--secondary); padding: 15px; margin-bottom: 15px; border-radius: 0 4px 4px 0; }
+        .job-meta, .edu-meta { font-style: italic; color: #64748b; font-size: 0.95rem; margin-bottom: 8px; }
+        ul { padding-left: 20px; margin-top: 5px; }
+        li { margin-bottom: 6px; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .skill-category { background: var(--light); padding: 15px; border-radius: 6px; border: 1px solid var(--border); }
+        .skill-category h4 { margin: 0 0 10px 0; color: var(--primary); border-bottom: 1px solid var(--border); padding-bottom: 5px; }
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .contact-info { flex-direction: column; gap: 5px; }
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Career Portfolio</h1>
-    <p>Hi, I'm an ICT professional specializing in systems administration, network setups, and user support.</p>
-    
-    <div class="section">
-        <h2>Key Skills</h2>
-        <ul>
-            <li>Helpdesk & Ticketing Systems</li>
-            <li>Network Troubleshooting</li>
-            <li>Active Directory & User Management</li>
-        </ul>
-    </div>
 
-    <div class="section">
-        <h2>Projects & Experience</h2>
-        <p><strong>ICT Support Assistant</strong> - School Team (2025 - Present)</p>
-        <p>Managed student hardware deployment and optimized school helpdesk ticket response times.</p>
-    </div>
+    <header>
+        <h1>Rimon Sharma</h1>
+        <div class="subtitle">Senior IT & EUC Support Specialist</div>
+        <div class="contact-info">
+            <span>📍 South Australia (Ready for Relocation)</span>
+            <span>📱 0469 841 656</span>
+            <span>✉️ rimonsharma1987@gmail.com</span>
+            <span>💼 Full Work Rights in Australia</span>
+        </div>
+        <p><strong>Professional Profile:</strong> Dedicated and highly motivated IT professional with 11 years of enterprise experience and a strong track record of delivering reliable technology solutions and high-quality ICT support. Currently serving as an ICT Support Officer with the South Australian Department for Education, combining extensive industry experience with a customer-focused approach and strong technical problem-solving skills.</p>
+        
+        <div class="badge-container">
+            <span class="badge cert-badge">ITIL® Foundation</span>
+            <span class="badge cert-badge">PMP® – Project Management</span>
+            <span class="badge cert-badge">Cisco Certified CyberOps Associate</span>
+            <span class="badge cert-badge">ISO/IEC 27001 Lead Auditor</span>
+            <span class="badge cert-badge">CPISI (PCI Security)</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Key Achievements</h2>
+        <div class="achievement-card">
+            <strong>🏆 Asia Pacific CIO Excellence Award (2020) – HSBC</strong><br>
+            Recognized at an international corporate level for outstanding technical delivery.
+        </div>
+        <div class="achievement-card">
+            <strong>🚀 Group CIO Award (2022) – HSBC</strong><br>
+            Awarded for operational excellence across high-stakes global banking infrastructure environments.
+        </div>
+        <div class="achievement-card">
+            <strong>⭐ 6× Top Performer Rating (2017–2022) – HSBC</strong><br>
+            Consistently exceeded rigorous operational KPIs in enterprise EUC support.
+        </div>
+        <div class="achievement-card">
+            <strong>🎓 Dean’s Merit List Award (2025)</strong><br>
+            Awarded for academic excellence during Australian Master’s degree completion.
+        </div>
+    </section>
+
+    <section>
+        <h2>Technical Skills Portfolio</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Desktop & End-User Support</h4>
+                <p>Level 2 & 3 Enterprise Support, Windows 10/11, PC/Laptop/Workstation fleet deployments, Mobile Environments (iOS, Android, BYOD), Virtual Desktop infrastructure, Remote Access systems, User Training.</p>
+            </div>
+            <div class="skill-category">
+                <h4>Systems & Endpoint Management</h4>
+                <p>SCCM deployment pipelines (Imaging, Patching, Software Distribution), Microsoft 365 Core administration, Cloud provisioning, Backup architectures, Endpoint Security compliance monitoring.</p>
+            </div>
+            <div class="skill-category">
+                <h4>Infrastructure & Networking</h4>
+                <p>Active Directory directory structures, Group Policy, LAN/WAN topologies, Enterprise Wi-Fi setups, Secure VPN paths, Meeting Room AV integrations, Hardware peripherals management.</p>
+            </div>
+            <div class="skill-category">
+                <h4>ITSM & Automation Platforms</h4>
+                <p>Incident & Request Governance, SLA engineering, ServiceNow workflows, Jira Service Management, Confluence base architecture, SharePoint Online automation, Python analytics scripting, Power BI dashboards.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Professional IT Experience</h2>
+        
+        <h3>ICT Support Officer</h3>
+        <div class="job-meta">Department for Education | South Australia | May 2026 – Present</div>
+        <p>Deliver comprehensive ICT operations governance for approximately 200 staff and 2,000 active students, ensuring architectural reliability and security metrics.</p>
+        <ul>
+            <li>Provide Level 2 and Level 3 engineering support across cross-functional desktop, laptop, and mobility environments.</li>
+            <li>Administer secure user lifecycle actions and granular access permissions via enterprise Active Directory trees.</li>
+            <li>Govern corporate Microsoft 365 workloads including advanced Outlook, Teams, OneDrive, and SharePoint frameworks.</li>
+            <li>Diagnose, troubleshoot, and engineer resolutions for core network fabrics, Wi-Fi paths, and complex classroom AV deployments.</li>
+            <li>Coordinate localized asset control registers to maintain hardware lifecycle schedules for end-user assets.</li>
+        </ul>
+
+        <h3>EUC & Infrastructure Support Manager</h3>
+        <div class="job-meta">HSBC | Bangladesh | Apr 2020 – Jul 2023</div>
+        <p>Directed end-to-end desktop, endpoint fleet management, enterprise mobility protocols, and critical branch IT hardware pipelines for 1,200+ elite users across core offices.</p>
+        <ul>
+            <li>Led cross-functional Level 2 & 3 engineers servicing robust desktop hardware deployments across secure locations.</li>
+            <li>Overhauled SCCM distribution environments spanning automated device imaging frameworks, scheduled patching, and secure deployments.</li>
+            <li>Owned global operational escalations while enforcing strict enterprise vendor SLAs for mission-critical banking environments.</li>
+            <li>Steered complex office technology moves, infrastructure refresh matrices, and large-scale Windows OS migration streams.</li>
+        </ul>
+
+        <h3>EUC & Desktop Support Officer</h3>
+        <div class="job-meta">HSBC | Bangladesh | May 2014 – Mar 2020</div>
+        <ul>
+            <li>Supplied high-availability Tier 1 and Tier 2 system deployments across centralized corporate and remote banking properties.</li>
+            <li>Administered secure operating environment provisioning leveraging SCCM image packaging distributions.</li>
+        </ul>
+
+        <h3>IT Support Engineer</h3>
+        <div class="job-meta">Smart Services Ltd | Bangladesh | Aug 2012 – Apr 2014</div>
+        <ul>
+            <li>Deployed hardware installation, configurations, and baseline software upgrades for vendor devices.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        
+        <strong>Master of Information Technology & Systems</strong>
+        <div class="edu-meta">Victorian Institute of Technology, Australia | 2024 – 2025 (Dean’s Merit List)</div>
+        
+        <strong>Master of Information Technology (Core Semesters)</strong>
+        <div class="edu-meta">Flinders University, Australia | 2023 – 2024 (Go Beyond Global Scholarship recipient)</div>
+        
+        <strong>BSc in Electronics & Telecommunication Engineering</strong>
+        <div class="edu-meta">North South University, Bangladesh | 2007 – 2011</div>
+    </section>
+
 </body>
 </html>
